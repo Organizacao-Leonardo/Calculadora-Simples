@@ -7,8 +7,10 @@ def main():
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
     soma = num1 + num2
-
+    multiplicacao = num1 * num2
+    
     print(f"{nome}, o resultado da soma é: {soma}")
-
+    print(f"{nome}, o resultado da multiplicação é: {multiplicacao}")
+    
 if __name__ == "__main__":
     main()
